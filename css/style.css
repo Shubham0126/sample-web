@@ -1,0 +1,210 @@
+@import url('fonts_brandon-poppins-font.css');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Brandon Grotesque,sans-serif;
+}
+
+li, a{
+    text-decoration: none;
+    list-style:none;
+}
+/* -----------------------------------Header Section-------------------------------------- */
+.header{
+    
+    height: 125px;
+    padding: 32px 30px 31px;
+}
+
+.donate-btn{
+    padding: 18px 40px;
+    border: none;
+    background-color: #1581EC;
+    color: white;
+}
+
+.nav-link{
+    padding-right: 25px;
+    font-weight: bold;
+}
+
+.banner{
+    padding: 0%;
+    margin: 30px;
+    height: 580px;
+    background-image: linear-gradient(rgba(0, 11, 76, 0.4),rgba(0, 11, 76, 0.4)),url(../images/product-school-nOvIa_x_tfo-unsplash.png);
+   background-size: cover;
+   background-repeat: no-repeat;
+}
+.banner-container{
+    padding: 55px 96px;
+    text-align: left;
+}
+
+.banner-heading{
+    font-size: 125px;
+    color: white;
+    font-weight: bold;
+    
+}
+.banner-date{
+    font-size: 16px;
+    color: white;
+    border-radius: 102px;
+    background-color: rgba(255, 255, 255, 0.25);
+    padding: 8px 15px;
+    letter-spacing: 1.6px;
+    display: inline;
+}
+.banner-text{
+    font-size: 25px;
+    color: white;
+    font-weight: bold;
+    font-family: Poppins,sans-serif;
+}
+
+.cma-btn{
+    font-size: 18px;
+    padding: 15px 30px;
+    background-color: rgba(21, 129, 236, 1);
+    color: white;
+    font-weight: bold;
+    border: none;
+    margin-top: 30px;
+}
+/* -----------------------------------Community Section-------------------------------------- */
+.community-section{
+    margin-left: 57px;
+    width: 1170px;
+    height: 670;
+    margin-top: 100px;
+}
+
+.community-section-1{
+    background-image: url("../images/img-background.svg");
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 608px;
+    height: 615px;
+    padding: 40px 40px 40px 32px;
+
+}
+.community-section-2{
+    width: 536px;
+    height: 400px;
+    margin: 110px 0px 106px 26px;
+}
+.community-section-2-content{
+    padding-left: 62px;
+}
+.community-heading{
+    font-size: 60px;
+    font-weight: bold;
+}
+.community-text{
+    font-size: 16px;
+    width: 474px;
+    margin-top: 20px;
+    font-weight: 400;
+    font-family: Poppins,sans-serif;
+}
+
+.search-img{
+    margin: 18px 30px;
+}
+
+/* -----------------------------------TCE Section-------------------------------------- */
+.tce-section{
+   
+    margin: 100px 30px;
+    height: 1271px;
+    background-color: #000B4C;
+    padding-left: 110px;
+    padding-top: 60px;
+}
+.tce-section-1{
+    width: 536px;
+    height: 400px;
+    margin: 109px 30px 107px 0px;
+}
+
+.tce-section-2{
+    background-image: url("../images/img-background.svg");
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 608px;
+    height: 615px;
+    padding: 40px 36px;
+}
+.tce-section-1-content{
+    padding-left: 62px;
+}
+.tce-heading{
+    font-size: 60px;
+    font-weight: bold;
+}
+.tce-text{
+    font-size: 16px;
+    width: 474px;
+    margin-top: 20px;
+    font-weight: 400;
+    font-family: Poppins,sans-serif;
+}
+
+.event-section{
+    width: 1100;
+    height: 475;
+    margin: 60px 103px 60px 0px;
+}
+
+.event-section-heading{
+    font-size: 40px;
+    font-weight: bold;
+    color: white;
+}
+
+.events-btn{
+    padding: 15px 30px;
+    background-color: transparent;
+    border-color: white;
+    color: white;
+}
+/* -----------------------------------RT Section-------------------------------------- */
+.rt-section{
+    margin-left: 57px;
+    width: 1170px;
+    height: 670;
+   
+}
+.rt-section-1{
+    background-image: url("../images/img-background.svg");
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 608px;
+    height: 615px;
+    padding: 40px 40px 40px 32px;
+
+}
+.rt-section-2{
+    width: 536px;
+    height: 400px;
+    margin: 110px 0px 106px 26px;
+}
+.rt-section-2-content{
+    padding-left: 62px;
+}
+.rt-heading{
+    font-size: 60px;
+    font-weight: bold;
+}
+.rt-text{
+    font-size: 16px;
+    width: 474px;
+    margin-top: 20px;
+    font-weight: 400;
+    font-family: Poppins,sans-serif;
+}
