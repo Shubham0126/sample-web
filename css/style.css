@@ -165,12 +165,43 @@ li, a{
     font-weight: bold;
     color: white;
 }
-
 .events-btn{
     padding: 15px 30px;
     background-color: transparent;
     border-color: white;
     color: white;
+    margin-right: 110px;
+}
+.card-section{
+    margin-right: 110px;
+}
+.card{
+    width: 352px;
+    height: 390px;
+    margin-right: 20px ;
+    border-radius: 0;
+}
+.card-title{
+    font-size: 30px;
+    font-weight: bold;
+}
+.card-text{
+    font-size: 16px;
+    font-weight: 400;
+    font-family: Poppins,sans-serif;
+}
+
+.card-body-mid p{
+    font-size: 14px;
+    font-size: regular;
+    font-family: Poppins,sans-serif;
+}
+.card-body-mid img{
+    margin-right: 5px;
+    margin-top: 2px;
+}
+.card-body-mid div{
+    margin-right: 20px;
 }
 /* -----------------------------------RT Section-------------------------------------- */
 .rt-section{
@@ -207,4 +238,104 @@ li, a{
     margin-top: 20px;
     font-weight: 400;
     font-family: Poppins,sans-serif;
+}
+
+
+/* -----------------------------------CMA Section-------------------------------------- */
+.cma-section{
+   
+    margin: 100px 30px;
+    height: 712px;
+    background-color: #000B4C;
+    display: flex;
+    flex-direction: row;
+    
+}
+.cma-section-form{
+    padding: 60px 73px 60px 109px;
+}
+.cma-section-form-heading{
+    font-size: 60px;
+    font-weight: bold;
+    color: white;
+    line-height: 80px;
+}
+.cma-section-form-sub{
+    padding-left: 62px;
+}
+.cma-section-text{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    color: white;
+    max-width: 474px;
+    font-family: Poppins,sans-serif;
+    font-weight: 400;
+}
+.cma-section-text-light{
+    font-size: 12px;
+    line-height: 18px;
+    color: white;
+    opacity: 0.5;
+    max-width: 474px;
+    font-family: Poppins,sans-serif;
+    font-weight: 400;
+}
+.cma-section-form-sub input{
+    width: 475px;
+    height: 80px;
+    margin-bottom: 20px;
+    background-color: transparent;
+    color: white;
+    border: 1px solid #1581EC;
+    padding-left: 30px;
+}
+
+
+/* -----------------------------------Footer Section-------------------------------------- */
+.footer{
+    padding: 40px 145px 27px;
+}
+
+.footer-heading{
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 13px;
+}
+.contact{
+    margin-left: 50px;
+}
+.contact a{
+    font-size: 20px;
+    color: black;
+    font-weight: bold;
+    margin-top: 0;
+    padding-top: 0;
+}
+.link a{
+    padding-left: 20px;
+    color: black;
+    font-weight: bold;
+}
+
+.footer-logo-section{
+    margin-bottom: 47px;
+}
+.footer-link{
+    font-size: 20px;
+    margin: 13px 0px;
+    color: #707070;
+    font-family: Poppins,sans-serif;
+    font-weight: 400;
+}
+.footer-copyright-section{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.copyright-text{
+    font-size: 12px;
+    color: #707070;
+    line-height: 18px;
+    font-family: Poppins,sans-serif;
+    font-weight: 400;
 }
